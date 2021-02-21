@@ -9,7 +9,7 @@ html {
 body {
 	background-color: #f4cb6e;
 	width: 600px;
-	margin: 20px auto;
+	margin: 20px auto 50px;
 	padding: 20px 20px 20px 20px;
 	color: #000000;
 	
@@ -31,6 +31,14 @@ table {
 #issue {
 	width: 600px;
 	border: 1px #f4cb6e;
+	border-collapse: collapse;
+	decoration: dashed 10px;
 	background-color: #FFFFFF;
-	margin: 10px;
+	text-align: center;
 }
+
+table td, th {
+	border: 1px solid #f4cb6e; /* inserts internal table borders */
+	padding: 15;
+}
+
