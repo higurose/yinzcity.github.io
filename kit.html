@@ -57,3 +57,27 @@
                	 	</tr>
             </tbody>
         </table>
+
+<script>
+	let myImage = document.querySelector('img');
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/cat-kit.png') {
+	      myImage.setAttribute('src','yinz-kit copy.png');
+	    } else {
+	      myImage.setAttribute('src','a/cat-kit.png');
+	    }
+	}
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/yinz-kit copy.png') {
+	      myImage.setAttribute('src','a/cat-kit.png');
+	    } else {
+	      myImage.setAttribute('src','a/yinz-kit copy.png');
+	    }
+	}
+</script>
+	
+</body>

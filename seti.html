@@ -56,3 +56,26 @@
                 	</tr>
             </tbody>
         </table>
+<script>
+	let myImage = document.querySelector('img');
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/cat-seti.png') {
+	      myImage.setAttribute('src','a/yinz-seti copy.png');
+	    } else {
+	      myImage.setAttribute('src','a/cat-seti.png');
+	    }
+	}
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/yinz-seti copy.png') {
+	      myImage.setAttribute('src','a/cat-seti.png');
+	    } else {
+	      myImage.setAttribute('src','a/yinz-seti copy.png');
+	    }
+	}
+</script>
+	
+</body>

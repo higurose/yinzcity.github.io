@@ -54,3 +54,26 @@
                 	</tr>
             </tbody>
         </table>
+<script>
+	let myImage = document.querySelector('img');
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/cat-sage.png') {
+	      myImage.setAttribute('src','a/yinz-sage-copy.png');
+	    } else {
+	      myImage.setAttribute('src','a/cat-sage.png');
+	    }
+	}
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/yinz-sage-copy.png') {
+	      myImage.setAttribute('src','a/cat-sage.png');
+	    } else {
+	      myImage.setAttribute('src','a/yinz-sage-copy.png');
+	    }
+	}
+</script>
+	
+</body>

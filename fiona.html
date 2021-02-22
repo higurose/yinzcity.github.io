@@ -55,3 +55,27 @@
                 </tr>
             </tbody>
         </table>
+
+<script>
+	let myImage = document.querySelector('img');
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/cat-fiona.png') {
+	      myImage.setAttribute('src','yinz-fiona copy.png');
+	    } else {
+	      myImage.setAttribute('src','a/cat-fiona.png');
+	    }
+	}
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/yinz-fiona copy.png') {
+	      myImage.setAttribute('src','a/cat-fiona.png');
+	    } else {
+	      myImage.setAttribute('src','a/yinz-fiona copy.png');
+	    }
+	}
+</script>
+	
+</body>

@@ -56,3 +56,27 @@
                 	</tr>
             </tbody>
         </table>
+
+<script>
+	let myImage = document.querySelector('img');
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/cat-isaiah.png') {
+	      myImage.setAttribute('src','a/yinz-isaiah.png');
+	    } else {
+	      myImage.setAttribute('src','a/cat-isaiah.png');
+	    }
+	}
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/yinz-isaiah.png') {
+	      myImage.setAttribute('src','a/cat-isaiah.png');
+	    } else {
+	      myImage.setAttribute('src','a/yinz-isaiah.png');
+	    }
+	}
+</script>
+	
+</body>

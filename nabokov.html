@@ -55,3 +55,26 @@
             </tbody>
         </table>
 
+<script>
+	let myImage = document.querySelector('img');
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/cat-nabokov.png') {
+	      myImage.setAttribute('src','yinz-nabokov copy.png');
+	    } else {
+	      myImage.setAttribute('src','a/cat-nabokov.png');
+	    }
+	}
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/yinz-nabokov copy.png') {
+	      myImage.setAttribute('src','a/cat-nabokov.png');
+	    } else {
+	      myImage.setAttribute('src','a/yinz-nabokov copy.png');
+	    }
+	}
+</script>
+	
+</body>
