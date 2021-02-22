@@ -12,6 +12,7 @@ body {
 	margin: 20px auto 50px;
 	padding: 20px 20px 20px 20px;
 	color: #000000;
+	line-height:18px;
 	
 }
 
@@ -42,3 +43,7 @@ table td, th {
 	padding: 15;
 }
 
+p {
+	color: #000000;
+	line-height: 20px;
+}
