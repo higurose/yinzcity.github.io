@@ -5,7 +5,7 @@
 	</head>
 
 			<body>
-            <center><img src="http://higurose.github.io/a/yinz/a/long-liberty.png" width="600"><p>
+            <center><img src="a/long-liberty.png" width="600"><p>
             
             <table>
             <tbody>
@@ -21,3 +21,27 @@
 				</table></p>
 				
 				<p><img src="http://higurose.github.io/a/yinz/a/seething-logo-yinz.png" width="200">
+
+<script>
+	let myImage = document.querySelector('img');
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/long-liberty-cat.png') {
+	      myImage.setAttribute('src','a/long-liberty.png');
+	    } else {
+	      myImage.setAttribute('src','a/long-liberty-cat.png');
+	    }
+	}
+
+	myImage.onclick = function() {
+	    let mySrc = myImage.getAttribute('src');
+	    if(mySrc === 'a/long-liberty.png') {
+	      myImage.setAttribute('src','a/long-liberty-cat.png');
+	    } else {
+	      myImage.setAttribute('src','a/long-liberty.png');
+	    }
+	}
+</script>
+	
+</body>
