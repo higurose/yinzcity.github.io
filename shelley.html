@@ -14,19 +14,17 @@
 		body {
 			background-color: #68a17e;
 			margin: 10px auto;
-			color: #FFFFFF;
-			width: 600px;
+			color: #000000;
 			margin: 10px auto 50px;
-			/*padding: 20px 20px 20px 20px;*/
 		}
-
+		
 		p{
 			font-size:16;
-			line-height: 20px;
+			line-height: 24px;
 		}
 
 		a,a:visited {
-			color: #FC4A6C;
+			color: #000000;
 			text-decoration: none;
 	
 		}
@@ -35,25 +33,65 @@
 		}
 
 		table {
+			width: 60%;
 			border: 0px;
 			background: transparent;
 	
 		}
 
 		table td, th {
-			/*border: 1px solid #f4cb6e; inserts internal table borders */
 			padding: 15;
+		}
+		#header {
+			width: 60%;
+			top: 0;
+			margin-left: auto;
+			margin-right: auto;
+	
+		}
+		
+		#text {
+			width: 60%;
+			border: 1px #f4cb6e;
+			border-collapse: collapse;
+			decoration: dashed 10px;
+			background-color: #FFFFFF;
+			text-align: center;
 		}
 		</style>
 	</head>
 	
 	<body>
+		<table id="header">
+		            <tbody>
+		
+						<tr>
+							<td>
+								<b><a href="index.html">HOME</a></b>
+							</td>
+		    				<td>
+								<b><a href="issues.html">ISSUES</a></b>
+		    				</td>
+							<td>
+								<b><a href="minis.html">MINI COMICS</a></b>
+							</td>
+		    				<td>
+								<b><a href="kids.html">CHARACTERS</a></b>
+		    				</td>
+							<td>
+								<b><a href="about.html">ABOUT</a></b>
+		    				</td>
+		    				<td>
+								<b><a target="_blank" href="http://www.higu.cool">WWW.HIGU.COOL</a></b>
+		    				</td>
+		    			</tr>
+		    		</table>
 		<center>
-            <table>
+			<img width="450" src="a/yinz-shelley copy.png">
+            <table id="text">
             <tbody>
 		    		<tr>
             			<td>
-							<center><img width="450" src="a/yinz-shelley copy.png"></center></p>
 							<p><b>SHELLEY</b> <i>he/him</i></p>
 							<p>Friendly neighborhood drug dealer who looks suspiciously like D*mon Alb*rn. Shelley’s logic is impossible to decipher-- he moves from Point A to Point Z without stopping to explain what goes on in between. Time spent with him is either a joy or a chore, depending on your tolerance for getting nothing done. Shelley is amicable even when interacting with people he dislikes, but keeps even his friends at arm's length. Weirdness aside, he's incredibly kind and looks out for those around him. No one actually knows much about his personal life or history. His aloof confidence is sometimes interpreted as arrogance. It’s nearly impossible to tell whether or not he’s high.</p>
 							</td>
@@ -73,13 +111,5 @@
 	    }
 	}
 
-	myImage.onclick = function() {
-	    let mySrc = myImage.getAttribute('src');
-	    if(mySrc === 'a/yinz-shelley copy.png') {
-	      myImage.setAttribute('src','a/Cat-shelley.png');
-	    } else {
-	      myImage.setAttribute('src','a/yinz-shelley copy.png');
-	    }
-	}
 </script>
 </body>

@@ -5,7 +5,7 @@
 		<style type="text/css">
 		html {
 			font-size: 16px;
-			color: #FFFFFF;
+			color: #000000;
 			font-family: "helvetica", sans-serif;
 			background color: #783c9a;
 		}
@@ -14,19 +14,17 @@
 		body {
 			background-color: #783c9a;
 			margin: 10px auto;
-			color: #FFFFFF;
-			width: 600px;
+			color: #000000;
 			margin: 10px auto 50px;
-			/*padding: 20px 20px 20px 20px;*/
 		}
-
+		
 		p{
-			font-size:16;
-			line-height: 20px;
+			font-size:16px;
+			line-height: 24px;
 		}
 
 		a,a:visited {
-			color: #FC4A6C;
+			color: #000000;
 			text-decoration: none;
 	
 		}
@@ -35,26 +33,66 @@
 		}
 
 		table {
+			width: 60%;
 			border: 0px;
 			background: transparent;
 	
 		}
 
 		table td, th {
-			/*border: 1px solid #f4cb6e; inserts internal table borders */
 			padding: 15;
+		}
+		#header {
+			width: 60%;
+			top: 0;
+			margin-left: auto;
+			margin-right: auto;
+	
+		}
+		
+		#text {
+			width: 60%;
+			border: 1px #f4cb6e;
+			border-collapse: collapse;
+			decoration: dashed 10px;
+			background-color: #FFFFFF;
+			text-align: center;
 		}
 		</style>
 	</head>
 	
 	<body>
-
+		<table id="header">
+		            <tbody>
+		
+						<tr>
+							<td>
+								<b><a href="index.html">HOME</a></b>
+							</td>
+		    				<td>
+								<b><a href="issues.html">ISSUES</a></b>
+		    				</td>
+							<td>
+								<b><a href="minis.html">MINI COMICS</a></b>
+							</td>
+		    				<td>
+								<b><a href="kids.html">CHARACTERS</a></b>
+		    				</td>
+							<td>
+								<b><a href="about.html">ABOUT</a></b>
+		    				</td>
+		    				<td>
+								<b><a target="_blank" href="http://www.higu.cool">WWW.HIGU.COOL</a></b>
+		    				</td>
+		    			</tr>
+		    		</table>
 		<center>
-            <table>
+		
+		<img width="450" src="a/yinz-miller copy.png">
+            <table id="text">
             <tbody>
 		    		<tr>
             			<td>
-							<p><center><img align="center" width="450" src="a/yinz-miller copy.png"></center></p>
 							<p><b>MILLER</b> <i>they/them/she/her</i></p>
 							<p>You either love Miller or hate Miller-- either way, there’s no denying how cool they are. Miller has a big personality and a somewhat oppressive presence, though they mean no harm. The definition of tough love, Miller is understanding but firm; they often search for a rational solution. When giving advice, Miller pulls no punches and isn’t afraid to tell you their honest opinion. Although they’re level headed, they can also be stubborn. Despite their intimidating bluntness, Miller is compassionate and cares deeply about the wellbeing of their friends. They throw the best parties. Almost everyone in town has been tattooed by them. Has a bit of back pain from their job. They refuse to acknowledge the 90s ever happened.</p>
 						</td>
@@ -68,20 +106,12 @@
 	myImage.onclick = function() {
 	    let mySrc = myImage.getAttribute('src');
 	    if(mySrc === 'a/cat-miller.png') {
-	      myImage.setAttribute('src','yinz-miller copy.png');
+	      myImage.setAttribute('src','a/yinz-miller copy.png');
 	    } else {
 	      myImage.setAttribute('src','a/cat-miller.png');
 	    }
 	}
 
-	myImage.onclick = function() {
-	    let mySrc = myImage.getAttribute('src');
-	    if(mySrc === 'a/yinz-miller copy.png') {
-	      myImage.setAttribute('src','a/cat-miller.png');
-	    } else {
-	      myImage.setAttribute('src','a/yinz-miller copy.png');
-	    }
-	}
 </script>
 	
 </body>
