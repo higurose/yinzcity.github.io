@@ -17,7 +17,7 @@ body {
 }
 
 ul li { 
-	text-align:left; 
+/*	text-align:left; */
 	list-style-position:inside; }
 
 /* link codes */
