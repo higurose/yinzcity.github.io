@@ -70,7 +70,7 @@ table {
 
 table td, th {
 	
-	padding: 15;
+	padding: 14; fixed;
 }
 
 p {
